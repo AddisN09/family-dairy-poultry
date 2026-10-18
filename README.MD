@@ -40,14 +40,34 @@ family-farm/
 │   └── contact.html
 │
 ├── css/
-│   └── style.css
+│   ├── shared/
+│   │   └── global.css
+│   │
+│   └── pages/
+│       ├── home.css
+│       ├── about.css
+│       ├── poultry.css
+│       ├── dairy.css
+│       ├── veterinary.css
+│       ├── diary.css
+│       └── contact.css
 │
 ├── js/
-│   └── main.js
+│   ├── shared/
+│   │   └── navigation.js
+│   │
+│   └── pages/
+│       ├── home.js
+│       ├── about.js
+│       ├── poultry.js
+│       ├── dairy.js
+│       ├── veterinary.js
+│       ├── diary.js
+│       └── contact.js
 │
 ├── images/
-│   ├── logo.png
 │   ├── hero.jpg
+│   ├── about.jpg
 │   ├── poultry/
 │   ├── dairy/
 │   ├── veterinary/
